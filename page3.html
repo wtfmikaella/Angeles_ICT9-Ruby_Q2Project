@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>OBMC LP</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"; rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="styles.css" rel="stylesheet">
+  <style>
+    .nav-link {
+  color: #004682 !important;
+}
+
+   .bg-blur {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url("obfly.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(2px);
+  z-index: -1; 
+}
+
+ .container {
+      background-color: rgba(255, 255, 255, 0.9);
+      max-width: 900px;
+      max-height: 5000px;
+      margin: 50px auto; 
+      padding: 30px;
+      border-radius: 13px;
+    }
+
+ .text h2{
+    font-size: 2.5rem;  
+      font-family: 'Verdana';
+      font-weight: 1000;
+      color: #004682;
+      margin-top: 0;
+      line-height: 1.6;
+      text-align: center;
+      position: relative;
+      top: -550px;
+      left: 220px;
+ }
+ .text p{
+  text-align: center;
+  color: black;
+  margin: 1;
+  font-size: 17px;
+  position: relative;
+  top: -500px; 
+  left: 225px;
+ }
+  </style> 
+</head>
+<body>
+    <div class="bg-blur"></div>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="obmc.png" alt="logo" height="50px" width="50px" style="border-radius: 50%;">
+    </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-targer="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar- nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" target="_self">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page2.html" target="_self">COURSES OFFERED</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page3.html" target="_self">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page4.html" target="_self">ENROLL NOW</a>
+                    <li class="nav-item">
+                    <a class="nav-link" href="page5.html" target="_self">ABOUT ME</a>
+                </li>
+                </li>
+
+            </ul>
+
+            <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" label="Search">
+        <button class="btn btn-outline-light" type="submit">SEARCH</button>
+      </form>
+
+    
+        </div>
+    </div>
+   </nav>
+<br>
+   <div class="container">
+            <div class="col-md-6 container-bg">
+        <form>
+          <div class="mb-3">
+            <label for="fullName" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" placeholder="Enter subject">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Type your message here"></textarea>
+          </div>
+          <button type="submit" class="btn btn-send w-100">Send Message</button>
+        </form>
+      </div>
+        </div>
+
+    <div class="text">
+        <h2>Contact Us</h2>
+        <p>If you have questions, need more information,
+            <br> or want to schedule a visit, we are here to help.<br>
+            <br>Phone: +63 2 8722 9720 to 26
+            <br>Email: info@obmontessori.edu.ph
+            <br>Address: 3 Eisenhower St., Bgy. Greenhills, San Juan City,
+            <br> Metro Manila, Philippines <br>
+            <br>Kindly fill out the form and we will get back to you.</p>
+    </div>
+
+</body>
+</html>
